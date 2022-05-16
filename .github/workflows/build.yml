@@ -42,4 +42,4 @@ jobs:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
         shell: powershell
         run: |
-          dotnet build .\shadowsocks-windows.sln
+          dotnet build .\src\Roslynator.sln
