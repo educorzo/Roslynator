@@ -8,6 +8,7 @@ using Xunit;
 
 namespace Roslynator.Formatting.CSharp.Tests
 {
+// a not so good comment
     public class RCS0002AddBlankLineAfterRegionDirectiveTests : AbstractCSharpDiagnosticVerifier<AddBlankLineAfterRegionDirectiveAnalyzer, DirectiveTriviaCodeFixProvider>
     {
         public override DiagnosticDescriptor Descriptor { get; } = DiagnosticRules.AddBlankLineAfterRegionDirective;
