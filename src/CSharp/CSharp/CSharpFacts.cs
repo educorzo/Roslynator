@@ -9,6 +9,7 @@ using Microsoft.CodeAnalysis.CSharp.Syntax;
 
 namespace Roslynator.CSharp
 {
+// this is a fact
     public static class CSharpFacts
     {
         internal static ImmutableArray<SyntaxKind> AssignmentExpressionKinds { get; } = ImmutableArray.CreateRange(new[]
@@ -60,7 +61,7 @@ namespace Roslynator.CSharp
                 case SyntaxKind.YieldReturnStatement:
                     return "yield return statement";
                 case SyntaxKind.YieldBreakStatement:
-                    return "yield break statement";
+                    return "yield break statement1";
                 case SyntaxKind.MethodDeclaration:
                     return "method";
                 case SyntaxKind.OperatorDeclaration:
