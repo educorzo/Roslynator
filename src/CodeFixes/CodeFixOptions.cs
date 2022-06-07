@@ -5,6 +5,6 @@ namespace Roslynator
     internal static class CodeFixOptions
     {
         [CodeFixOption("<COMMA_SEPARATED_LIST_OF_IGNORED_XML_TAGS>")]
-        public const string CS1591_MissingXmlCommentForPubliclyVisibleTypeOrMember_IgnoredTags = "roslynator.CS1591.ignored_tags";
+        public const string CS1591_MissingXmlCommentForPubliclyVisibleTypeOrMember_IgnoredTags = "roslynator.CS1591.ignored_tags_";
     }
 }
