@@ -10,6 +10,7 @@ using Microsoft.CodeAnalysis.CSharp.Syntax;
 
 namespace Roslynator.CSharp
 {
+// HOLA
     internal static class DetermineParameterHelper
     {
         public static IParameterSymbol DetermineParameter(
